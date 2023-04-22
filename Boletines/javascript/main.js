@@ -18,9 +18,13 @@ links.forEach(function (link) {
     content.classList.add("animate__bounceOutDown");
     content.classList.add("animate__animated");
 
-    content.addEventListener("animationend", function () {
+    setTimeout(function () {
       location.href = "/index.html";
-    });
+    }, 1000);
+
+    /* content.addEventListener("animationend", function () {
+      location.href = "/index.html";
+    });*/
 
     return false;
   });
