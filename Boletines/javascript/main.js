@@ -18,7 +18,7 @@ links.forEach(function (link) {
     content.classList.add("animate__bounceOutDown");
     content.classList.add("animate__animated");
 
-    setTimeout(function () {
+    ssetInterval()(function () {
       location.href = "/index.html";
     }, 600);
 
